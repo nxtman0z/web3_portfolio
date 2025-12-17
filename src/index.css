@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+* {
+  border-color: rgb(51 51 51);
+}
+
+body {
+  background-color: #141414;
+  color: rgb(242 242 242);
+  font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background-color: rgb(242 242 242);
+  color: #141414;
+}
+
+/* Slow down background video */
+#home video {
+  animation: slowPlayback 1s linear;
+}
+
+@keyframes slowPlayback {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
