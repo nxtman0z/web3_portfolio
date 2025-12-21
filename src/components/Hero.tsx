@@ -82,7 +82,7 @@ export const Hero = () => {
         {/* Social Links */}
         <div className="flex gap-4 pt-4">
           <a
-            href="https://github.com/deepesh-sr"
+            href="https://github.com/nxtman0z"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 border-2 border-white/20 hover:border-white/40 hover:bg-white/5 transition-all rounded-lg"
@@ -91,7 +91,7 @@ export const Hero = () => {
             <SiGithub className="w-5 h-5" />
           </a>
           <a
-            href="https://x.com/0xdeepeshW3"
+            href="https://x.com/nxtman0z"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 border-2 border-white/20 hover:border-white/40 hover:bg-white/5 transition-all rounded-lg"
@@ -100,7 +100,7 @@ export const Hero = () => {
             <SiX className="w-5 h-5" />
           </a>
           <a
-            href="https://linkedin.com/in/deepesh-sr"
+            href="https://www.linkedin.com/in/nxtman0z/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 border-2 border-white/20 hover:border-white/40 hover:bg-white/5 transition-all rounded-lg"
@@ -109,7 +109,7 @@ export const Hero = () => {
             <SiLinkedin className="w-5 h-5" />
           </a>
           <a
-            href="mailto:rathoredeepeshsingh@gmail.com"
+            href="mailto:manojkumarpanigrahi54@gmail.com"
             className="p-3 border-2 border-white/20 hover:border-white/40 hover:bg-white/5 transition-all rounded-lg"
             aria-label="Email"
           >
