@@ -51,9 +51,7 @@ export const Hero = () => {
 
         {/* Bio */}
         <p className="text-base md:text-lg text-white/60 max-w-2xl leading-relaxed">
-          Building high-performance, scalable systems — from Rust services to
-          Solana smart experiences — and delivering seamless full-stack
-          solutions using modern web and blockchain technologies.
+          Crafting scalable Web3 systems with Rust smart contracts and Solana ecosystems, building Solidity-based decentralized logic, and delivering modern full-stack blockchain applications with working knowledge of Java and contemporary web technologies.
         </p>
 
         {/* CTA Buttons */}
