@@ -40,12 +40,12 @@ export const Hero = () => {
         {/* Name and Title */}
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight">
-            Deepesh Singh
+            Manoj Kumar
             <br />
-            <span className="text-white/60">Rathore</span>
+            <span className="text-white/60">Panigrahi</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/70 max-w-2xl">
-            Solana • Rust • Full-Stack Engineer
+            Solidity • Rust • Java Developer
           </p>
         </div>
 
