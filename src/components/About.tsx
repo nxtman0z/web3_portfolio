@@ -24,29 +24,6 @@ export const About = () => {
     },
   ];
 
-  const strengths = [
-    {
-      title: "Rust & Systems Programming",
-      description:
-        "Strong command of systems-level thinking, memory safety, and tooling. From CLI utilities to backend templates, Rust is central to my engineering identity.",
-    },
-    {
-      title: "Solana & Blockchain",
-      description:
-        "Building real-world Solana use cases, exploring on-chain gaming, randomness, and decentralized logic with projects like MagicRoulette.",
-    },
-    {
-      title: "Full-Stack Web Integration",
-      description:
-        "Blending backend engineering with frontend delivery — React & Next.js for interfaces and TypeScript for client logic.",
-    },
-    {
-      title: "Developer Tooling & Productivity",
-      description:
-        "Creating tools that help developers build better systems — like tracing setups and CLI utilities — with a focus on impactful infrastructure.",
-    },
-  ];
-
   return (
     <section id="about" className="min-h-screen py-20 px-6">
       <div className="max-w-6xl mx-auto space-y-16">
@@ -88,24 +65,6 @@ export const About = () => {
                 </div>
               );
             })}
-          </div>
-        </div>
-
-        {/* Core Strengths */}
-        <div>
-          <h3 className="text-2xl font-semibold mb-8">Core Strengths</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {strengths.map((strength) => (
-              <div
-                key={strength.title}
-                className="border-l-2 border-white/20 pl-6 space-y-2"
-              >
-                <h4 className="text-lg font-semibold">{strength.title}</h4>
-                <p className="text-white/60 text-sm leading-relaxed">
-                  {strength.description}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </div>
