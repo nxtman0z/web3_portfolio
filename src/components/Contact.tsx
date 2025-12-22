@@ -85,12 +85,6 @@ export const Contact = () => {
               Projects
             </a>
             <a
-              href="#designs"
-              className="text-white/60 hover:text-white transition-colors text-sm"
-            >
-              Designs
-            </a>
-            <a
               href="#contact"
               className="text-white/60 hover:text-white transition-colors text-sm"
             >
