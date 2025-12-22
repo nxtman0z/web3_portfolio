@@ -5,7 +5,7 @@ export const About = () => {
     {
       category: "Core Languages",
       icon: Code2,
-      items: ["Rust", "TypeScript", "JavaScript"],
+      items: ["Rust", "Java", "JavaScript", "Solidity"],
     },
     {
       category: "Web/Frontend",
@@ -20,7 +20,7 @@ export const About = () => {
     {
       category: "Blockchain",
       icon: Wrench,
-      items: ["Solana", "On-chain Programs", "VRF & Gaming"],
+      items: ["Solana", "Avalanche", "Ethereum"],
     },
   ];
 
@@ -57,7 +57,7 @@ export const About = () => {
             I'm a passionate and hands-on software engineer focused on{" "}
             <span className="text-white">Rust systems</span>,{" "}
             <span className="text-white">blockchain development</span>, and{" "}
-            <span className="text-white">full-stack web applications</span>{" "}
+            <span className="text-white">Java Development</span>{" "}
             built with modern tools. My work bridges developer experience with
             high-performance execution.
           </p>
