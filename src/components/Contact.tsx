@@ -19,34 +19,34 @@ export const Contact = () => {
         {/* Contact Methods */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <a
-            href="https://github.com/deepesh-sr"
+            href="https://github.com/nxtman0z"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-white/10 bg-white/5 p-6 rounded-lg hover:border-white/30 hover:bg-white/10 transition-all group"
           >
             <SiGithub className="w-8 h-8 mb-4 text-white/60 group-hover:text-white transition-colors" />
             <h3 className="text-lg font-semibold mb-2">GitHub</h3>
-            <p className="text-white/60 text-sm">@deepesh-sr</p>
+            <p className="text-white/60 text-sm">@nxtman0z</p>
           </a>
 
           <a
-            href="https://linkedin.com/in/deepesh-sr"
+            href="https://www.linkedin.com/in/nxtman0z/"
             target="_blank"
             rel="noopener noreferrer"
             className="border-2 border-white/10 bg-white/5 p-6 rounded-lg hover:border-white/30 hover:bg-white/10 transition-all group"
           >
             <SiLinkedin className="w-8 h-8 mb-4 text-white/60 group-hover:text-white transition-colors" />
             <h3 className="text-lg font-semibold mb-2">LinkedIn</h3>
-            <p className="text-white/60 text-sm">deepesh-sr</p>
+            <p className="text-white/60 text-sm">nxtman0z</p>
           </a>
 
           <a
-            href="mailto:rathoredeepeshsingh@gmail.com"
+            href="mailto:manojkumarpanigrahi54@gmail.com"
             className="border-2 border-white/10 bg-white/5 p-6 rounded-lg hover:border-white/30 hover:bg-white/10 transition-all group"
           >
             <Mail className="w-8 h-8 mb-4 text-white/60 group-hover:text-white transition-colors" />
             <h3 className="text-lg font-semibold mb-2">Email</h3>
-            <p className="text-white/60 text-sm">rathoredeepeshsingh@gmail.com</p>
+            <p className="text-white/60 text-sm">manojkumarpanigrahi54@gmail.com</p>
           </a>
         </div>
 
@@ -55,7 +55,7 @@ export const Contact = () => {
           <p className="text-white/40 text-sm mb-6">
             Available for freelance projects and full-time opportunities
           </p>
-          <a href="mailto:rathoredeepeshsingh@gmail.com">
+          <a href="mailto:manojkumarpanigrahi54@gmail.com">
             <Button size="lg">
               <Mail className="w-5 h-5" />
               Send a Message
@@ -98,7 +98,7 @@ export const Contact = () => {
             </a>
           </div>
           <p className="text-white/40 text-xs">
-            © {new Date().getFullYear()} Deepesh Singh Rathore. Built with
+            © {new Date().getFullYear()} Manoj Kumar Panigrahi. Built with
             React, Vite & Tailwind CSS.
           </p>
         </div>
