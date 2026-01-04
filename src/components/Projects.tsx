@@ -44,13 +44,17 @@ export const Projects = () => {
       demo: null,
     },
     {
-      title: "Q3_25_Builder",
+      title: "BridgeX",
       description:
-        "Developer tooling and Solana ecosystem project showcasing full-stack blockchain development.",
-      tags: ["TypeScript", "Solana", "Developer Tools"],
-      highlights: ["Community challenge participation", "Web3 integration"],
-      github: "https://github.com/deepesh-sr/Q3_25_Builder",
-      demo: null,
+        "A blockchain-based global payroll platform on Stellar network for paying remote workers using stablecoins. Features Soroban smart contract multi-signature escrow for secure 2-factor payroll approval (CFO + CEO), Freighter wallet integration, and real-time payment tracking.",
+      tags: ["React", "TypeScript", "Stellar", "Soroban", "MongoDB"],
+      highlights: [
+        "Soroban smart contract multi-sig escrow",
+        "Global payroll with USDC/XLM support",
+        "Freighter wallet integration with real-time tracking",
+      ],
+      github: "https://github.com/nxtman0z/BridgeX",
+      demo: "https://bridge-x-three.vercel.app/login",
     },
     {
       title: "min_axum_tracing_setup",
