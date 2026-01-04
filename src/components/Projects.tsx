@@ -31,12 +31,16 @@ export const Projects = () => {
       demo: null,
     },
     {
-      title: "Trustplay",
+      title: "AUCTRA",
       description:
-        "TypeScript-based web3 experience and Solana ecosystem contribution reflecting engagement with dev tooling and community.",
-      tags: ["TypeScript", "Solana", "Web3"],
-      highlights: ["Solana ecosystem participation", "Frontend + blockchain integration"],
-      github: "https://github.com/deepesh-sr/Trustplay",
+        "A cutting-edge decentralized auction platform featuring blockchain integration, IPFS storage via Pinata, and AI-powered chatbot assistance using Google Gemini. Built with React.js and Node.js, enabling secure smart contract-based auctions with real-time bidding.",
+      tags: ["React", "Node.js", "Ethers.js", "IPFS", "MongoDB"],
+      highlights: [
+        "Smart contract auction system with blockchain tracking",
+        "IPFS decentralized storage for auction images",
+        "AI-powered chatbot for user assistance",
+      ],
+      github: "https://github.com/nxtman0z/AUCTRA",
       demo: null,
     },
     {
