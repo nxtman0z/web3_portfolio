@@ -161,7 +161,7 @@ export const Projects = () => {
         {/* More Projects Link */}
         <div className="text-center pt-8">
           <a
-            href="https://github.com/deepesh-sr"
+            href="https://github.com/nxtman0z"
             target="_blank"
             rel="noopener noreferrer"
           >
