@@ -18,12 +18,16 @@ export const Projects = () => {
       demo: null,
     },
     {
-      title: "MINI_GREP",
+      title: "OrbitLend",
       description:
-        "A compact grep-like utility implemented in Rust, demonstrating systems programming expertise and text processing.",
-      tags: ["Rust", "CLI", "Systems Programming"],
-      highlights: ["CLI tool built with Rust", "Text processing performance"],
-      github: "https://github.com/deepesh-sr/MINI_GREP",
+        "A comprehensive fintech blockchain platform enabling users to request loans, tokenize them as NFTs using Verbwire API on Ethereum Sepolia, and trade on a marketplace. Features JWT authentication, MongoDB persistence, and full-stack TypeScript implementation.",
+      tags: ["TypeScript", "React", "Node.js", "Ethereum", "MongoDB"],
+      highlights: [
+        "NFT loan tokenization with Verbwire API",
+        "Full-stack fintech platform with admin dashboard",
+        "ERC-721 NFT marketplace for loan trading",
+      ],
+      github: "https://github.com/nxtman0z/OrbitLend",
       demo: null,
     },
     {
