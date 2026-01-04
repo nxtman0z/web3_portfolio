@@ -10,7 +10,7 @@ export const About = () => {
     {
       category: "Web/Frontend",
       icon: Blocks,
-      items: ["React", "Next.js", "Tailwind CSS"],
+      items: ["React","Typescript", "Next.js", "Tailwind CSS"],
     },
     {
       category: "Backend/APIs",

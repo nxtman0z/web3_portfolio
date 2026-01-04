@@ -5,16 +5,16 @@ import { Button } from "./ui/button";
 export const Projects = () => {
   const projects = [
      {
-      title: "accel-MagicRoulette",
+      title: "EcoPoints",
       description:
-        "A Solana on-chain roulette game integrating MagicBlock VRF, showcasing blockchain gaming and verifiable random functions.",
-      tags: ["Solana", "TypeScript", "Gaming", "VRF"],
+        "A desktop waste management reward system built with Java and Swing that promotes eco-friendly behavior by rewarding users for proper waste disposal. Features user submissions with proof, admin verification, and a gamified points system.",
+      tags: ["Java", "Swing", "JDBC", "MySQL"],
       highlights: [
-        "Solana on-chain interaction",
-        "Chain randomness via VRF",
-        "TypeScript client layer",
+        "User waste submission with image proof",
+        "Admin approval and management system",
+        "Points-based reward mechanism",
       ],
-      github: "https://github.com/deepesh-sr/accel-MagicRoulette",
+      github: "https://github.com/nxtman0z/EcoPoints",
       demo: null,
     },
     {
