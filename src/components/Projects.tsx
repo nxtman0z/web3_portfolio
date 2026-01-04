@@ -56,24 +56,6 @@ export const Projects = () => {
       github: "https://github.com/nxtman0z/BridgeX",
       demo: "https://bridge-x-three.vercel.app/login",
     },
-    {
-      title: "min_axum_tracing_setup",
-      description:
-        "A starter template for setting up Axum with structured logging and tracing, ideal for backend services requiring observability and performance.",
-      tags: ["Rust", "Axum", "Tracing", "Backend"],
-      highlights: ["Rust async backend", "Tracing + logging for scalable servers"],
-      github: "https://github.com/deepesh-sr/min_axum_tracing_setup",
-      demo: null,
-    },
-    {
-      title: "make_link_shortyy",
-      description:
-        "A fast and efficient URL shortener built entirely in Rust, emphasizing performance, minimalism, and safety.",
-      tags: ["Rust", "Web", "Backend", "CLI"],
-      highlights: ["Rust-native web utility", "Strong safety and speed"],
-      github: "https://github.com/deepesh-sr/make_link_shortyy",
-      demo: null,
-    },
    
   ];
 
